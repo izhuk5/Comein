@@ -49,6 +49,7 @@ aside, nav, footer, header, section {
 
 a, a:visited {
   text-decoration: none;
+  color: #232323;
 }
 
 a:hover {
@@ -72,27 +73,39 @@ button {
   cursor: pointer;
 }
 
-h1 {
-  font-family: "DIN Pro";
-  font-size: 5rem;
-  font-weight: 700;
+.navbar {
+  margin-top: 2.5rem;
 }
-
-h2 {
-  font-family: "DIN Pro";
-  font-size: 5rem;
-  font-weight: 900;
-  color: orange;
+.navbar .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-h3 {
+.navbar .menu__list a {
+  font-size: 1.125rem;
   font-family: "Arial";
-  font-size: 5rem;
-  font-weight: 700;
-}
-
-h4 {
-  font-family: "Arial";
-  font-size: 5rem;
   font-weight: 400;
+}
+.navbar .menu__list .menu__list-item {
+  margin-right: 2.5rem;
+}
+.navbar .menu__list .menu__list-item:nth-child(4) {
+  margin-left: 2.5rem;
+}
+.navbar .menu__list .menu__list-item:last-child {
+  margin-right: 0;
+}
+
+.container {
+  max-width: 77.5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  background-color: orange;
 }

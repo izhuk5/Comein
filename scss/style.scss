@@ -1,26 +1,12 @@
 @import "_fonts";
 @import "_reset";
+@import "_vars";
+@import "_header.scss";
 
-h1 {
-    font-family: "DIN Pro";
-    font-size: 5rem;
-    font-weight: 700;
-}
-h2 {
-    font-family: 'DIN Pro';
-    font-size: 5rem;
-    font-weight: 900;
-    color: orange;
-}
-
-h3 {
-    font-family: "Arial";
-    font-size: 5rem;
-    font-weight: 700;
-}
-
-h4 {
-    font-family: "Arial";
-    font-size: 5rem;
-    font-weight: 400;
+.container {
+    max-width: 77.5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding:  0 1.25rem;
+    background-color: orange;
 }
